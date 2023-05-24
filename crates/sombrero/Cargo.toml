@@ -1,0 +1,10 @@
+[package]
+name = "sombrero"
+version = "0.1.0"
+authors = ["Rrogntudju"]
+edition = "2021"
+
+[dependencies]
+registry = "1"
+
+
