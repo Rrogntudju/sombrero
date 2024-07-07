@@ -3,8 +3,10 @@ name = "sombrero"
 version = "0.2.0"
 authors = ["Rrogntudju"]
 edition = "2021"
+build = "build/build.rs"
 
 [dependencies]
 windows-registry = "0.1"
 
-
+[build-dependencies]
+winres = "0.1"
